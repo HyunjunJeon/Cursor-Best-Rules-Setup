@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "shrimp-task-manager": {
+            "command": "npx",
+            "args": ["-y", "mcp-shrimp-task-manager"],
+            "env": {
+                "DATA_DIR": "/Users/jhj/Lecture/fc_mcp_a2a/shrimp_data", 
+                "TEMPLATES_USE": "en",
+                "ENABLE_GUI": "false"
+            }
+        }
+    }
+}
